@@ -1,0 +1,62 @@
+@media screen and (max-width: 768px) {
+     .grid-content {
+       display: flex;
+       flex-direction: column;
+       justify-content: space-evenly;
+       
+     }
+     .container{
+        width: 90%;
+     }
+     
+     .grid-5 h3, .grid-6 h3, .grid-7 h3{
+        font-size: 10px;
+    }
+    .grid-5 h3, .grid-6 h3, .grid-7 h3{
+        font-size: 10px;
+    }
+    .grid-2-p-2 p, .grid-2-p-3 p, .grid-2-p-1 p {
+        font-size: 10px;
+    }
+    #navbar #nav{
+        display: block;
+        background-color: white;
+        position: absolute;
+        right: 0;
+        top: 0;
+        width: 200px;
+        height: 100vh;
+        font-size: 20px;
+        padding-top: 50px;
+        padding-left: 10px;
+        padding-right: 10px;
+        display: none;
+        z-index: 1;
+
+    }
+    #nav img{
+        float: right;
+        clear: both;
+    }
+    #navbar ul{
+     margin-top: 70px;
+    }
+    .grid-3 h1{
+        font-size: 50px;
+    }
+  
+    #nav ul {
+     flex-direction: column;
+    }
+    #small-display {
+        display: block;
+    }
+    #overlay{
+        position: absolute;
+        width: 100vw;
+        height: 100vh;
+        background-color: black;
+        opacity: 0.5;
+        display: none;
+    }
+}
